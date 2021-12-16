@@ -22,5 +22,15 @@ public final class SwiftyLib {
     public func multiply(a: Int, b: Int) -> Int {
         return a * b
     }
+
+    public func divide(a: Int, b: Int) -> Int {
+        return a / b
+    }
+
+    //v0.0.2 changes
+
+    func calculatePercentage(){
+        return "Percentage"
+    }
     
 }
